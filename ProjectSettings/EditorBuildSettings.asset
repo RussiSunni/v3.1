@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: de7a5a06465fb17c8ae2e84b0f13645b
+  - enabled: 0
+    path: Assets/Scenes/Intro/Intro01.unity
+    guid: d8c191de5123dbe6599438ac7619b4fa
+  - enabled: 1
+    path: Assets/Scenes/Intro/Intro02.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/Intro/old scenes/GoalDescription.unity
+    guid: 8dc515e402a18797e9739de8a1506da3
+  - enabled: 1
+    path: Assets/Scenes/Intro/ChooseCharacter.unity
+    guid: 308f870fe84a26b51bd62569fe086992
+  - enabled: 1
+    path: Assets/Scenes/Academy/Outside Academy.unity
+    guid: 768fdec274b10919dbc0f9f41b3ce9cf
+  - enabled: 1
+    path: Assets/Scenes/Intro/old scenes/Rules.unity
+    guid: 15c8844fd4fcb31e39b4d818a3f6e3de
+  - enabled: 1
+    path: Assets/Scenes/Academy/Academy.unity
+    guid: 1ce06b4ab9d54d6ad866ad9d4a06d39c
+  - enabled: 1
+    path: Assets/Scenes/Hub/Hub.unity
+    guid: 54eeb77e9f493aaaf8a349ff228e0352
+  - enabled: 1
+    path: Assets/Scenes/Forest/Forest.unity
+    guid: 2e194303840cef026a0fd3767b85457c
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Forest/ArtemisIntro.unity
+    guid: 01e4622053c6d96f68956907f1ac266d
+  - enabled: 1
+    path: Assets/Scenes/Forest/ArtemisExercise.unity
+    guid: a5b94acd8b41c96999ce202786a87f52
+  - enabled: 1
+    path: Assets/Scenes/Academy/PlayerRoom.unity
+    guid: 5a72cd0284bfb86efb36cccd59ca704c
+  - enabled: 1
+    path: Assets/Scenes/BookOfSpells.unity
+    guid: 84e8c3b7fc0f6eab9ba49d9e85a25236
+  - enabled: 1
+    path: Assets/Scenes/Temple/Temple.unity
+    guid: e425d4a4d71e91ebdb848706afc8e88b
+  - enabled: 1
+    path: Assets/Scenes/Temple/IrisExercise.unity
+    guid: ec5579d12e78d534bb34516a6415af86
+  - enabled: 1
+    path: Assets/Scenes/Academy/old scenes/FairyExercise.unity
+    guid: 28294110fb82a70efabc6ccbd61c905a
+  - enabled: 1
+    path: Assets/Scenes/Village/Village.unity
+    guid: acfe2c4dca8af9e50b5788c6df93eae6
+  - enabled: 1
+    path: Assets/Scenes/Village/MyFamilyExercise.unity
+    guid: 1faa50de3689e7d9fb4583d0a364d71a
+  - enabled: 1
+    path: Assets/Scenes/Academy/old scenes/MagazineExercise.unity
+    guid: 28508335908d6d40f8388b3ed89d3047
+  - enabled: 1
+    path: Assets/Scenes/Academy/AcademySpellBook.unity
+    guid: dae290b929ccb0012a6d3da3b3e4b140
+  - enabled: 1
+    path: Assets/Scenes/Forest/ForestSpellBook.unity
+    guid: 0c1f756dde5cca8c59d00ac4444eeaf9
+  - enabled: 1
+    path: Assets/Scenes/Temple/TempleSpellBook.unity
+    guid: 0cf08cbb9492beb4e92ca680468e1401
+  - enabled: 1
+    path: Assets/Scenes/Village/VillageSpellBook.unity
+    guid: 506c4adbbb3da640cb4ec8adbe62f944
+  - enabled: 1
+    path: Assets/Scenes/Academy/old scenes/Greeting01Exercise.unity
+    guid: 442fe2cfb0bc70589ac13181cffdf8cb
+  - enabled: 1
+    path: Assets/Scenes/Forest/Zebra.unity
+    guid: 141f4cff44e238334bde65df28d5303b
+  - enabled: 1
+    path: Assets/Scenes/Academy/SecretaryExercise.unity
+    guid: 2f51149da3da69134abe3c468e3b07b8
+  - enabled: 1
+    path: Assets/Scenes/Temple/MageExercise.unity
+    guid: da5cd2cbab8e01c21a37105efda3094b
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Academy/old scenes/Greeting02Exercise.unity
+    guid: d0d10cd659e1891009861cd4651ef583
+  - enabled: 1
+    path: Assets/Scenes/Town/Town.unity
+    guid: a78a717c2358057d6ba0940748255a45
+  - enabled: 1
+    path: Assets/Scenes/Dictionary.unity
+    guid: 2b21e529d2e2957c1ab424e3a454939e
+  - enabled: 1
+    path: Assets/Scenes/Academy/AcademyDictionary.unity
+    guid: 4063cf9a33f6018c9b54c567641890f3
+  - enabled: 1
+    path: Assets/Scenes/Forest/Forest-platformer.unity
+    guid: 104b0d14871d44f4881963af94f49350
+  - enabled: 0
+    path: Assets/Scenes/SimpleApp/Start Menu.unity
+    guid: 67562aff118c5a9bdb46770d911c8b37
+  - enabled: 0
+    path: Assets/Scenes/SimpleApp/Scene001.unity
+    guid: efec13f543cc7d22da0c18afcae0a35f
+  - enabled: 0
+    path: Assets/Scenes/SimpleApp/Menu.unity
+    guid: e63074b96b02bd399b999a50d819211a
+  - enabled: 0
+    path: Assets/Scenes/SimpleApp/Scene002.unity
+    guid: efd7551a6c51332ee80b19c5f77baec6
+  m_configObjects: {}
