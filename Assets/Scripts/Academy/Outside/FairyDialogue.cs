@@ -41,20 +41,21 @@ public class FairyDialogue : MonoBehaviour
         dialoguePanel.GetComponent<CanvasGroup>().interactable = true;
 
 
-        FairyPlayerDialogue.DisplayDialogue();
-        FairyDialogueBox.SetActive(false);
-        Hello_UI.fairyLocked = false;
-        Hello_UI.ReturnToInitialPosition();
+        // FairyPlayerDialogue.DisplayDialogue();
+        // FairyDialogueBox.SetActive(false);
+        // Hello_UI.fairyLocked = false;
+        // Hello_UI.ReturnToInitialPosition();
     }
 
 
     public void NextButton()
     {
-        //FairyDialogue.SetActive(false);
-
         if (!helloCard.activeSelf & !Progress.hello)
             SoundManagerScript.playHELLOWordSound();
         if (Progress.hello == false)
             helloCard.SetActive(true);
+
+        dialoguePanel.GetComponent<CanvasGroup>().alpha = 0;
+        dialoguePanel.GetComponent<CanvasGroup>().interactable = false;
     }
 }
