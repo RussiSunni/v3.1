@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -10,6 +9,7 @@ public class PlayerScript : MonoBehaviour
     public Animator animator;
     Vector2 movement;
     public static GameObject SpellBookUI;
+    public GameObject cardsUI;
 
     void Start()
     {
@@ -54,14 +54,25 @@ public class PlayerScript : MonoBehaviour
     }
     public void LoadSpellBookUI()
     {
-        if (SpellBookUI.activeSelf)
+        if (cardsUI.GetComponent<CanvasGroup>().alpha == 0)
         {
-            SpellBookUI.SetActive(false);
+            cardsUI.GetComponent<CanvasGroup>().alpha = 1;
+            cardsUI.GetComponent<CanvasGroup>().interactable = true;
         }
         else
         {
-            SpellBookUI.SetActive(true);
+            cardsUI.GetComponent<CanvasGroup>().alpha = 0;
+            cardsUI.GetComponent<CanvasGroup>().interactable = false;
         }
+
+        // if (SpellBookUI.activeSelf)
+        // {
+        //     SpellBookUI.SetActive(false);
+        // }
+        // else
+        // {
+        //     SpellBookUI.SetActive(true);
+        // }
     }
 
 
