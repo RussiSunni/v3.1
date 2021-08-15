@@ -7,7 +7,7 @@ public class EmotionSystem : MonoBehaviour
 {
     private Sprite image1, image2, image3, image4;
     private Image imageComponent;
-    GameObject panel;
+    //  GameObject panel;
 
     public float targetTime = 5.0f;
 
@@ -20,8 +20,8 @@ public class EmotionSystem : MonoBehaviour
 
         imageComponent = this.GetComponent<Image>();
 
-        panel = GameObject.FindWithTag("gameOver");
-        panel.SetActive(false);
+        //  panel = GameObject.FindWithTag("gameOver");
+        //  panel.SetActive(false);
     }
 
     void Update()
@@ -40,7 +40,7 @@ public class EmotionSystem : MonoBehaviour
 
         else if (Progress.emotion > 4)
         {
-            panel.SetActive(true);
+            // panel.SetActive(true);
             targetTime -= Time.deltaTime;
             if (targetTime <= 0.0f)
             {

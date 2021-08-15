@@ -10,11 +10,11 @@ public class FairyDialogue : MonoBehaviour
     public GameObject helloCard;
     void Start()
     {
-        FairyDialogueBox = GameObject.Find("Fairy Dialogue");
-        FairyDialogueBox.SetActive(false);
+        // FairyDialogueBox = GameObject.Find("Fairy Dialogue");
+        // FairyDialogueBox.SetActive(false);
 
-        FairyDialogueBox2 = GameObject.Find("Fairy Dialogue 2");
-        FairyDialogueBox2.SetActive(false);
+        // FairyDialogueBox2 = GameObject.Find("Fairy Dialogue 2");
+        // FairyDialogueBox2.SetActive(false);
 
         helloCard.SetActive(false);
     }
