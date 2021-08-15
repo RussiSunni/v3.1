@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class TargetDropPanel : MonoBehaviour, IDropHandler, IPointerEnterHandler, IPointerExitHandler
 {
     public static DraggableBlock d;
+    public Image dialoguePanel;
+    public Text dialogueText;
 
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -25,6 +28,11 @@ public class TargetDropPanel : MonoBehaviour, IDropHandler, IPointerEnterHandler
         }
 
         // StartCoroutine((FindChildBlock()));
+
+        dialogueText.text = "Hi!";
+        dialoguePanel.GetComponent<CanvasGroup>().alpha = 1;
+        dialoguePanel.GetComponent<CanvasGroup>().interactable = true;
+
     }
 
     // IEnumerator FindChildBlock()

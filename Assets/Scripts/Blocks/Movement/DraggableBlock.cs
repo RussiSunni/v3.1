@@ -36,22 +36,10 @@ public class DraggableBlock : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        this.transform.SetParent(parentToReturnTo);
+        this.transform.SetParent(parentToReturnTo, false);
 
         GetComponent<CanvasGroup>().blocksRaycasts = true;
 
-        // Destroy(placeholder);
-
-        StartCoroutine((RegisterWord()));
-    }
-
-
-    IEnumerator RegisterWord()
-    {
-        yield return new WaitForSeconds(0.1f);
-
-        // GameObject gameControl = GameObject.Find("GameControl");
-        // GameControl gameControlScript = gameControl.GetComponent<GameControl>();
-        // gameControlScript.UpdateStage();
+        // Destroy(placeholder);       
     }
 }

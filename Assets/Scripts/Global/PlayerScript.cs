@@ -29,9 +29,6 @@ public class PlayerScript : MonoBehaviour
 
         SpellBookUI = GameObject.Find("SpellBookUI");
         SpellBookUI.SetActive(false);
-
-
-
     }
 
     // movement
@@ -43,15 +40,14 @@ public class PlayerScript : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
-
-
-
     }
+
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
     }
+
     public void LoadSpellBookUI()
     {
         if (cardsUI.GetComponent<CanvasGroup>().alpha == 0)
@@ -74,8 +70,6 @@ public class PlayerScript : MonoBehaviour
         //     SpellBookUI.SetActive(true);
         // }
     }
-
-
 }
 
 
