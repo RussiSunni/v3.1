@@ -9,6 +9,7 @@ public class TargetDropPanel : MonoBehaviour, IDropHandler, IPointerEnterHandler
     public static DraggableBlock d;
     public Image dialoguePanel;
     public Text dialogueText;
+    public Animator fairyAnimator;
 
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -32,6 +33,7 @@ public class TargetDropPanel : MonoBehaviour, IDropHandler, IPointerEnterHandler
         dialogueText.text = "Hi!";
         dialoguePanel.GetComponent<CanvasGroup>().alpha = 1;
         dialoguePanel.GetComponent<CanvasGroup>().interactable = true;
+        fairyAnimator.SetBool("isHello", true);
 
     }
 

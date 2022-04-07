@@ -51,9 +51,9 @@ public class FairyDialogue : MonoBehaviour
     public void NextButton()
     {
         if (!helloCard.activeSelf & !Progress.hello)
-            SoundManagerScript.playHELLOWordSound();
-        if (Progress.hello == false)
-            helloCard.SetActive(true);
+            //SoundManagerScript.playHELLOWordSound();
+            if (Progress.hello == false)
+                helloCard.SetActive(true);
 
         dialoguePanel.GetComponent<CanvasGroup>().alpha = 0;
         dialoguePanel.GetComponent<CanvasGroup>().interactable = false;
